@@ -1,0 +1,1 @@
+{"version":3,"file":"util.js","sourceRoot":"","sources":["../../src/util.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,MAAM,EAAE,MAAM,aAAa,CAAC;AAGrC,MAAM,oBAAoB,MAAc;IACtC,MAAM,CAAC,MAAM,CAAC,OAAO,CAAC;CACvB","sourcesContent":["import { Action } from '@ngrx/store';\n\n\nexport function toPayload(action: Action) {\n  return action.payload;\n}\n"]}

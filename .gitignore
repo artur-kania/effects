@@ -19,7 +19,7 @@ coverage
 .grunt
 
 # Compiled binary addons (http://nodejs.org/api/addons.html)
-build/Release
+#build/Release
 
 # Users Environment Variables
 .lock-wscript
@@ -55,7 +55,7 @@ __build__/**
 !/typings/custom.d.ts
 
 # Build Artifacts #
-release
+#release
 .ngc
 *.ngfactory.ts
 *.ngsummary.json

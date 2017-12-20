@@ -1,4 +1,4 @@
-import { OpaqueToken, Inject, SkipSelf, Optional, Injectable, OnDestroy } from '@angular/core';
+import { InjectionToken, Inject, SkipSelf, Optional, Injectable, OnDestroy } from '@angular/core';
 import { Action, Store } from '@ngrx/store';
 import { Observer } from 'rxjs/Observer';
 import { Subscription } from 'rxjs/Subscription';
@@ -6,7 +6,7 @@ import { merge } from 'rxjs/observable/merge';
 import { mergeEffects } from './effects';
 
 
-export const effects = new OpaqueToken('ngrx/effects: Effects');
+export const effects = new InjectionToken<any>('ngrx/effects: Effects');
 
 @Injectable()
 export class EffectsSubscription extends Subscription implements OnDestroy {

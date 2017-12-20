@@ -1,0 +1,1 @@
+[{"__symbolic":"module","version":4,"metadata":{"EffectMetadata":{"__symbolic":"interface"},"Effect":{"__symbolic":"function","parameters":["dispatch"],"value":{"__symbolic":"error","message":"Lambda not supported","line":13,"character":9},"defaults":[{"dispatch":true}]},"getEffectsMetadata":{"__symbolic":"function"},"mergeEffects":{"__symbolic":"function"}}}]

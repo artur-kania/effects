@@ -1,4 +1,4 @@
-import { NgModule, Injector, Type, APP_BOOTSTRAP_LISTENER, OpaqueToken } from '@angular/core';
+import { NgModule, Injector, Type, APP_BOOTSTRAP_LISTENER, InjectionToken } from '@angular/core';
 import { Actions } from './actions';
 import { EffectsSubscription, effects } from './effects-subscription';
 import { runAfterBootstrapEffects, afterBootstrapEffects } from './bootstrap-listener';
